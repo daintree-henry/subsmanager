@@ -18,7 +18,7 @@ spec:
       containers:
         - env:
             - name: SUB_URL
-              value: sm-subs
+              value: http://sm-subs
             - name: REDIS_HOST
               value: sm-redis
             - name: REDIS_PORT
